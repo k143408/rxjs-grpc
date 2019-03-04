@@ -6,7 +6,7 @@
 ## Installation
 
 ```sh
-$ npm install rxjs-grpc rxjs grpc
+$ npm install rxjs-grpc-ts rxjs grpc
 ```
 
 ## Quickstart
