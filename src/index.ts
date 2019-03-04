@@ -34,7 +34,7 @@ export function serverBuilder<T>(protoPath: string, packageName: string): T & Ge
   return builder as any;
 }
 
-function createService(Service: any, rxImpl: DynamicMethods) {
+export function createService(Service: any, rxImpl: DynamicMethods) {
   const service: DynamicMethods = {};
   for (const name in Service.prototype) {
     if (typeof rxImpl[name] === 'function') {
