@@ -1,14 +1,14 @@
 {
   "main": "js/index",
   "typings": "js/index",
-  "name": "rxjs-grpc",
+  "name": "rxjs-grpc-ts",
   "version": "1.1.0",
   "description": "Typesafe gRPC with RxJS in TypeScript",
   "license": "MIT",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kondi/rxjs-grpc.git"
+    "url": "https://github.com/k143408/rxjs-grpc.git"
   },
   "bin": {
     "rxjs-grpc": "./bin/rxjs-grpc"
